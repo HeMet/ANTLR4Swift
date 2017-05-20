@@ -1,7 +1,6 @@
-/* Copyright (c) 2012-2016 The ANTLR Project. All rights reserved.
- * Use of this file is governed by the BSD 3-clause license that
- * can be found in the LICENSE.txt file in the project root.
- */
+/// Copyright (c) 2012-2017 The ANTLR Project. All rights reserved.
+/// Use of this file is governed by the BSD 3-clause license that
+/// can be found in the LICENSE.txt file in the project root.
 
 //
 //  CharacterEextension.swift
@@ -41,7 +40,7 @@ extension Character {
     }
 
     public static var MAX_VALUE: Int {
-        let c: Character = "\u{FFFF}"
+        let c: Character = "\u{10FFFF}"
         return c.unicodeValue
     }
     public static var MIN_VALUE: Int {

@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2016 The ANTLR Project. All rights reserved.
+/* Copyright (c) 2012-2017 The ANTLR Project. All rights reserved.
  * Use of this file is governed by the BSD 3-clause license that
  * can be found in the LICENSE.txt file in the project root.
  */
@@ -66,7 +66,7 @@ public class RuntimeMetaData {
      * omitted.</li>
      * </ul>
      */
-    public static let VERSION: String = "4.6.1"
+    public static let VERSION: String = "4.7"
 
     /**
      * Gets the currently executing version of the ANTLR 4 runtime library.
