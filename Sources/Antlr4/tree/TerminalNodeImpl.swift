@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2016 The ANTLR Project. All rights reserved.
+/* Copyright (c) 2012-2017 The ANTLR Project. All rights reserved.
  * Use of this file is governed by the BSD 3-clause license that
  * can be found in the LICENSE.txt file in the project root.
  */
@@ -25,6 +25,11 @@ public class TerminalNodeImpl: TerminalNode {
     override
     public func getParent() -> Tree? {
         return parent
+    }
+
+    override
+    public func setParent(_ parent: RuleContext) {
+        self.parent = parent
     }
 
     override
